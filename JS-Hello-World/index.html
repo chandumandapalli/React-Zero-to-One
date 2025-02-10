@@ -10,14 +10,20 @@
     <h1>Hello World</h1> -->
     <div id="root"></div>
     
+
+    <!-- Adding react cdn links in the body toinclude CDN -->
+    <!-- // thi first script is called core of react ( most of the code is present here JS) -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- Here is the script tag for DOM to manipulate the DOM -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </body>
 
-<script>
+<!-- <script>
    // creating h1 from javascript and appending it tothe child of root div
-   // Here document. createElement innerhtml is the super power that browser has so it understands it by default . 
+   // Here document. createElement innerhtml is the super power that browser has, so it understands it by default . 
    const heading = document.createElement('h1');
-   heading.innerHTML = 'Hello World from JavaScript';
+   heading.textContent = 'Hello World from JavaScript';
    const root = document.getElementById('root');
     root.appendChild(heading);
-</script>
+</script> -->
 </html>
