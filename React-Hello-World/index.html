@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include the CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>React Hello World</title>
+</head>
+<body>
+    
+    <div id="root">
+        <h1>this is h1 tag in PURE HTML code </h1>
+    </div>
+
+
+    <!-- React CDN links start -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- React CDN links End -->
+
+<!-- writing inline JS code in HTML instead we can also write it in a different file for better readability and maintainability of code. -->
+    <!-- <script>
+        const heading = React.createElement('h1', {},'Hello World from React!');
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(heading);
+    </script> -->
+
+
+    <!-- including the above code in a separate file named App.js -->
+    <script src="./App.js"></script>
+
+
+
+</body>
+</html>
