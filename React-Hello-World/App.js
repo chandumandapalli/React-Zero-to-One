@@ -3,7 +3,7 @@
 //      {
 //         id:"heading",
 //         class:"heading-class",
-//      },
+//      }, 
 //      'Hello World from React !');
 
 //      console.log(heading); // returns object
