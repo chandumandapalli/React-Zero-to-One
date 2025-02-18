@@ -26,7 +26,7 @@
 </div> */
 
 
-
+//creaing above HTML structure using React. 
 
 const parent = React.createElement( 
     'div',
