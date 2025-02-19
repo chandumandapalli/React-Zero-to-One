@@ -4,7 +4,7 @@
 
 Theory -
 
-● What is Emmet?
+● What is Emmet? 
 
 ● Difference between a Library and Framework?
 
