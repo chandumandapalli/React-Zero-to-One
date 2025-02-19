@@ -39,7 +39,7 @@ Coding -
 
 ○ Using JS to manipulate the DOM
 
-○ Using React
+○ Using React 
 
 ■ use CDN Links
 
