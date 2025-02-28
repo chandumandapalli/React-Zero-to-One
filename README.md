@@ -18,7 +18,7 @@ Theory -
 
 ● What is difference between react.development.js and react.production.js files via CDN?
 
-● What is async and defer? - see my Youtube video ;)
+● What is async and defer? - see my Youtube video ;) 
 
 
 Coding -
