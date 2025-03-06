@@ -11,13 +11,18 @@
 <body>
     
     <div id="root">
-        <h1>this is h1 tag in PURE HTML code </h1>
+        <!-- This is the root element where the React component will be rendered. -->
+        <!-- The React component will be rendered here. -->
+         <!--  if the content  of the app.js is not rendered  due to any issue then this message will be displayed. -->
+        <h1>No Rendered</h1>
     </div>
 
 
     <!-- React CDN links start -->
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+     <!-- These CDN links can be removed when React and ReactDOM are installed in the project using npm or yarn. -->
+
+     <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
     <!-- React CDN links End -->
 
 <!-- writing inline JS code in HTML instead we can also write it in a different file for better readability and maintainability of code. -->
@@ -28,8 +33,9 @@
     </script> -->
 
 
-    <!-- including the above code in a separate file named App.js -->
-    <script src="./App.js"></script>
+    <!-- including the above code in a separate file named App.js  -->
+    <script type="module" src="./App.js"></script> 
+    <!-- end of script file inclusion -->
 
 
 
